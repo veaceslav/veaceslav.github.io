@@ -12,18 +12,18 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Veaceslav
 
-description: Stylish Jekyll Theme
+description: Tech Stuff and Co
 author:
-  name: dbyll
-  email: dbyll@ismaildemirbilek.com
-  github: dbtek
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
-  email_md5: 726351295ec82e145928582f595aa3aa
+  name: Veaceslav
+  email: veaceslav.munteanu90@gmail.com
+  github: veaceslav
+  twitter: slavuttici
+#  pinterest: asd123
+  linkedin: veaceslav-munteanu
+  bio: Everything related to me, both tech and soul
+  email_md5: 488607f5bb87f92f239a507ac0813b55
 
 rss_path: feed.xml
 categories_path: categories.html
