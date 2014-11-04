@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Exams at VU: Preparation
+title: First Exams at VU Preparation
 categories: [general]
 tags: [exams]
 ---
