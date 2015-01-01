@@ -3,7 +3,13 @@
 body{
 	color: #0c695d;
 }
-
+img.commenter {
+    float: left;
+}
+textarea.comment-text {
+    width: 100%;
+    height: 70px;
+}
 .sidebar {
 	position: fixed;
 	top: 0px;
@@ -182,4 +188,6 @@ footer {
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
+
+
 
