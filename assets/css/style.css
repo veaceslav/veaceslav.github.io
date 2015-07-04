@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #0c695d;
+	color: #002150;
 }
 img.commenter {
     float: left;
@@ -14,7 +14,7 @@ textarea.comment-text {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: rgba(11, 133, 120, 0.69);
+	background-color: rgba(17, 123, 208, 0.69);
 	color: #fff;
 }
 
@@ -88,7 +88,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: #e72d44;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -123,20 +123,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #f25466;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #f24868;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #e71642;
 }
 
 .author .author-image {
