@@ -32,10 +32,19 @@ For performance reasons, when a file is deleted, only the entry is removed, and 
 
 The troubles do not stop here, some techniques can even recover data even if something was written on top of it. To ensure a safe delete, you must write over the same place few times. Then data dissapears for good.
 
+Different utility programs offer different types of wipe:
+
+*simple, write whole disk with zeros, one time
+*good, write disk with data 3 times
+*better, write disk with data 7 times
+*best, write disk with data 35 times
+
+I opted out for third option, because I find writting data 35 times a little bit insane...
+
 Now I booted into the system and see the worst case scenario: The whole disk has one partition:
-Disk C. You don't know where the old data is, so you need to wipe whole disk, then reinstall the system. And this is what I'm doing now. To write zeros 7 times on 290 Gb disk, it will take 10
-hours. And that what I'm doing now: Waiting for wipe to finish. If you are in a hurry, you are
-busted. Imagine if you had one 1 Terabyte disk. That would took days to wipe.
+Disk C.You don't know where the old data is, so you need to wipe whole disk, then reinstall the system. And this is what I'm doing now. To write zeros 7 times on 290 Gb disk, program gave me an
+estimated time of 7 hours. Now about 50% is done and I still need to wait another 4 and a half hours.If you are in a hurry, you are busted.
+Imagine if you had one 1 Terabyte disk. That would take days to wipe.
 
 My suggestions for everybody who may have similar problems:
 
