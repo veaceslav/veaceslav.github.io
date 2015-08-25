@@ -149,8 +149,8 @@
         {% for comment in site.data.comments.sessions %}
             {% if comment.path == page.url %}
             <li>
-            <div>
-            <img class="commenter" src="{{ comment.avatar }}"
+            <div class="comm">
+            <img class="img-circle commenter" src="{{ comment.avatar }}"
                  onError="this.onerror=null;this.src='/assets/ico/person.png';"
                  alt="{{ comment.name }}"
                  width="45" height="45"
@@ -162,7 +162,7 @@
                     <span class="commenter"><label>{{ comment.name }}</label></span>
                 {% endif %}
 
-                <p><time datetime="{{ comment.created | date_to_xmlschema }}">{{ comment.created | date_to_long_string  }}</time></p>
+                <p><time class="commenter" datetime="{{ comment.created | date_to_xmlschema }}">{{ comment.created | date_to_long_string  }}</time></p>
                 </div>
             </div>
 
