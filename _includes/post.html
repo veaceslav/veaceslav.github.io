@@ -1,5 +1,6 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../../../../assets/css/style.css">
+<script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
@@ -121,7 +122,7 @@
 
 	<!-- Comment section, Add comment -->
       <section class="share col-sm-9">
-        <form action="http://pooleapp.com/stash/7d69b9c4-0ffa-417a-ad37-b10479a18e4e/" method="post">
+        <form id="commentSub" action="http://pooleapp.com/stash/7d69b9c4-0ffa-417a-ad37-b10479a18e4e/" method="post" onsubmit="return validateMyForm()">
             <h2>Leave your comment</h2>
             <p><input type="hidden" name="redirect_to" value="/thanks" /></p>
 
@@ -139,7 +140,8 @@
             <p><label for="comment">Your comment</label></p>
             <p><textarea name="comment" class="comment-text"></textarea></p>
 
-            <p><input type="submit" value="Post comment" class="submit" /></p>
+            <div class="g-recaptcha" data-sitekey="6LeMGgwTAAAAAOhscFMSJ5z1AOW8FG7ftpSDBd2w"></div>
+            <p><input type="submit" value="Post comment" class="submit" id="slsubmit" /></p>
          </form>
       </section>
 

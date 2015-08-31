@@ -7,6 +7,10 @@ img.commenter {
     float: left;
 }
 
+div.g-recaptcha {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 div.comm {
     display:block;
     margin: 10px;

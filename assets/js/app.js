@@ -12,5 +12,18 @@ $( document ).ready(function() {
 	contact_list.mouseenter(function(){ scontacts.fadeIn(); });
 	
 	contact_list.mouseleave(function(){ scontacts.fadeOut(); });
+        
 
 });
+
+        function validateMyForm(){
+            console.log("Hello");
+            if(grecaptcha.getResponse()){
+                return true;
+            } else
+            {
+                return false;
+            }
+        }
+
+
